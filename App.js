@@ -1,11 +1,23 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image} from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Hi I'm Minhaj Sadik And I'll Create a Ios Mobile App!</Text>
+      <Text>Look I am Using Text Components To Show My Own Text</Text>
+      <Image source={{
+        uri: 'https://web.programming-hero.com/public/1607429045811.png'
+      }}
+        style={{ width: 200, height: 200 }}
+      />
+      <Image source={{
+        uri: 'https://web.programming-hero.com/public/1607429045811.png'
+      }}
+        style={{ width: 200, height: 200 }}
+      />
+      
       <StatusBar style="auto" />
     </View>
   );
