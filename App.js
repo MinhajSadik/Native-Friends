@@ -27,7 +27,7 @@ export default function App() {
           borderWidth: 1
         }}
         onChangeText={text => setName(text)}
-        defaultValue="Hi Man What's Going On?"
+        defaultValue="Hi Man?"
       />
       <StatusBar style="auto" />
     </View>
